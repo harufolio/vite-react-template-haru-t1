@@ -1,5 +1,5 @@
 컴포넌트 선언 방식{
-✅ export default function ComponentName(props: Props) { ... }
+✅ export default function ComponentName({...}: Props) { ... }
 
 ❌ const ComponentName: React.FC<Props> = (...) => { ... }
 
